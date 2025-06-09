@@ -1,0 +1,35 @@
+/* 添加一些自定义样式 */
+.stButton>button {
+    background-color: #FF4B4B;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 24px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #FF2B2B;
+    transform: scale(1.05);
+}
+
+.stSelectbox, .stSlider {
+    margin-bottom: 20px;
+}
+
+.stMarkdown h1, .stMarkdown h2, .stMarkdown h3 {
+    color: #FF4B4B;
+}
+
+.stSidebar {
+    background-color: #f0f2f6;
+    padding: 20px;
+}
+
+.stExpander {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
